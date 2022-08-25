@@ -92,6 +92,7 @@ ul {
     font-weight: 600;
     padding: 6px 28px;
     border-radius: 7px;
+    border-style: solid;
 }
 
 .info {
@@ -151,5 +152,49 @@ ul {
     text-align: end;
     padding: 0 220px 85px;
     font-size: 20px;
+    font-weight: 800;
+}
+
+.calltoac {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+}
+
+.bluebox {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    color: #f9faf8;
+    border-radius: 10px;
+    gap: 100px;
+    align-items: center;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.cta-heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-text p {
+    margin: 0;
+}
+
+.cta-signup button{
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border-width: 3px;
     font-weight: 800;
 }
